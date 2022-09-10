@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\RangeSlider\\RangeSlider\\RangeSlider\\RangeSlider.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\RangeSlider\\RangeSlider\\RangeSlider\\RangeSlider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\RangeSlider\\RangeSlider\\RangeSlider\\RangeSlider.csproj",
+        "projectName": "RangeSlider",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\RangeSlider\\RangeSlider\\RangeSlider\\RangeSlider.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\RangeSlider\\RangeSlider\\RangeSlider\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

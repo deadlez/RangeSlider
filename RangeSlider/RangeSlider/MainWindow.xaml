@@ -1,0 +1,32 @@
+﻿<Window x:Class="RangeSlider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:RangeSlider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Grid.LayoutTransform>
+            <ScaleTransform CenterX="0"
+                            CenterY="0"
+                            ScaleX="2"
+                            ScaleY="2"/>
+        </Grid.LayoutTransform>
+        
+        <mah:RangeSlider Width="300"
+                         AutoToolTipPlacement="TopLeft"
+                         LowerValue="5"
+                         UpperValue="10"
+                         Maximum="15"
+                         Minimum="0"
+                         MinRangeWidth="0.1"
+                         IsSnapToTickEnabled="True"
+                         TickFrequency="0.1"
+                         MinRange="0.1"
+                         Style="{DynamicResource MahApps.Styles.RangeSlider}"
+                         HorizontalAlignment="Center"
+                         VerticalAlignment="Center"/>
+    </Grid>
+</Window>
